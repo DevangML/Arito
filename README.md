@@ -5,7 +5,6 @@
 
 </p>
 
-
 <p align="center">
 </a>
 <a href="https://github.com/prakhartiwari0/Arito/issues"><img src="https://img.shields.io/github/issues/prakhartiwari0/arito?style=plastic"></a>
@@ -20,7 +19,6 @@
 <h3 align="center">This project is being actively developed by open source contributors🔥</h3>
 
 <h3 align="center"> 👉 Go To <a href="https://github.com/prakhartiwari0/Arito/discussions">Arito Discussions</a> and share your thoughts!</h3>
-
 
 <h3> Navigator </h3>
 
@@ -37,21 +35,17 @@ Arito is a WebApp built for practicing arithmetic skills. It is designed with cr
 
 <h3>Small History of the App</h3>
 
-3 years ago, my little sister wanted to practice her maths (arithmetic) skills to **get faster at solving problems**. But there were not enough questions available in the school textbook, and it was not a good option to buy practice worksheets. I newly learnt **Python programming language** at that time, and thought to **solve this problem by using my programming skills**. 
+3 years ago, my little sister wanted to practice her maths (arithmetic) skills to **get faster at solving problems**. But there were not enough questions available in the school textbook, and it was not a good option to buy practice worksheets. I newly learnt **Python programming language** at that time, and thought to **solve this problem by using my programming skills**.
 
 I created a **GUI app** (because obviously a terminal app is not a good idea for a kid) using **Tkinter** module in Python, and wrote the logic to automatically generate basic questions based on the options the user selects in the form.
 **You can find that old project [here](https://github.com/prakhartiwari0/Maths-App).**
 
-This WebApp can be looked as the _"Web version of the previous Python App"_, but I don't think it is _entirely_ true. The **web app is far better than the Python App**, and the latter is very limited, it can only be used when you have a Windows PC, and Python installed in it. It was also cumbersome to start the app. 
+This WebApp can be looked as the _"Web version of the previous Python App"_, but I don't think it is _entirely_ true. The **web app is far better than the Python App**, and the latter is very limited, it can only be used when you have a Windows PC, and Python installed in it. It was also cumbersome to start the app.
 The WebApp, because of our lovely **open source community**, is now becoming much better. And I dream that this app will be used by kids all around the world to get better at maths by practicing their skills. (**read more about our future goals [here](#future-goals))**
-
 
 <p align="center"><strong>Arito App v2.7.2 Video</strong></p>
 
 https://user-images.githubusercontent.com/65062036/213378174-722322c9-d8c5-4a0d-9759-bc6061189a49.mp4
-
-
-
 
 ---
 
@@ -61,31 +55,27 @@ https://user-images.githubusercontent.com/65062036/213378174-722322c9-d8c5-4a0d-
 
 On starting the app, you are asked to fill a form. This **TEST FORM** contains various options and input fields, which you need to fill up according to your desires.
 
-| Field | Info |
-| --- | --- |
-| **NAME:** | Test Taker's Name | 
-| **QUESTIONS OF:** |  Which arithmetic skill do you want to practice? (Currently, there are four available: **Addition, Subtraction, Multiplication, Division**) | 
- | **DIFFICULTY LEVEL:**  | There are *5 Difficulty Levels* -> <br> 1. **Very Easy:** Questions about numbers ranging from  **1-10** <br> 2. **Easy:** Questions about numbers ranging from **11-50** <br> 3. **Medium:** Questions about numbers ranging from **51-100** <br> 4. **Hard:** Questions about numbers ranging from **100-1000** <br> 5. **Very Hard:** Questions about numbers ranging from **1000-10000**  | 
- | **Number of questions:** |  Number of questions you would like to attempt | 
- | **NEGATIVE MARKING:**  | If you check this, every incorrect answer will result in a **1 mark deduction**, else, you will be given 0 mark  | 
+| Field                    | Info                                                                                                                                                                                                                                                                                                                                                                                        |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **NAME:**                | Test Taker's Name                                                                                                                                                                                                                                                                                                                                                                           |
+| **QUESTIONS OF:**        | Which arithmetic skill do you want to practice? (Currently, there are four available: **Addition, Subtraction, Multiplication, Division**)                                                                                                                                                                                                                                                  |
+| **DIFFICULTY LEVEL:**    | There are _5 Difficulty Levels_ -> <br> 1. **Very Easy:** Questions about numbers ranging from **1-10** <br> 2. **Easy:** Questions about numbers ranging from **11-50** <br> 3. **Medium:** Questions about numbers ranging from **51-100** <br> 4. **Hard:** Questions about numbers ranging from **100-1000** <br> 5. **Very Hard:** Questions about numbers ranging from **1000-10000** |
+| **Number of questions:** | Number of questions you would like to attempt                                                                                                                                                                                                                                                                                                                                               |
+| **NEGATIVE MARKING:**    | If you check this, every incorrect answer will result in a **1 mark deduction**, else, you will be given 0 mark                                                                                                                                                                                                                                                                             |
 
 <!-- <p align="center"> <img src="" width="200px"> </p> -->
 
 ### Installation Instructions
 
-| Sr No. | On Desktop/Laptop | On Mobile Phone/Tablet |
-| --- | --- | --- |
-| 1. | <p align="center"> Open the website of Arito, and you will find a install button in the browser, click on that and install the app <img src="https://user-images.githubusercontent.com/65062036/210035371-fe0d0f52-21d6-4aa7-9687-bc6ea1a7e724.png" width="400px"> </p> | <p align="center"> Open the website or Arito, open the options menu of the browser, and click on the install app button <img src="https://user-images.githubusercontent.com/65062036/210035580-40c03867-61e7-4897-b5bf-3806053b707f.jpg" width="200px"> </p> |
-| 2. | <p align="center"> After doing so, you can find the app in your applications menu <img src="https://user-images.githubusercontent.com/65062036/210035448-659ca418-3990-4353-bcf9-d80a55beab17.png" width="400px"> </p> | <p align="center"> A box will appear, click on install button, and after that, you will be able to find arito in your apps menu <img src="https://user-images.githubusercontent.com/65062036/210035588-1a4ae218-33bb-4dec-9839-8294fd1e09c2.jpg" width="200px"> </p> |
-| **Note** | The browser used in the images is Brave v1.46.144 and OS is Ubuntu 22.04.1 LTS, but it should work on other devices and browsers too | The browser used in the images is Chrome 107.0.5304.91 and OS is Android 9, but it should work on other devices and browsers too | 
-
-
-
-
+| Sr No.   | On Desktop/Laptop                                                                                                                                                                                                                                                       | On Mobile Phone/Tablet                                                                                                                                                                                                                                               |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.       | <p align="center"> Open the website of Arito, and you will find a install button in the browser, click on that and install the app <img src="https://user-images.githubusercontent.com/65062036/210035371-fe0d0f52-21d6-4aa7-9687-bc6ea1a7e724.png" width="400px"> </p> | <p align="center"> Open the website or Arito, open the options menu of the browser, and click on the install app button <img src="https://user-images.githubusercontent.com/65062036/210035580-40c03867-61e7-4897-b5bf-3806053b707f.jpg" width="200px"> </p>         |
+| 2.       | <p align="center"> After doing so, you can find the app in your applications menu <img src="https://user-images.githubusercontent.com/65062036/210035448-659ca418-3990-4353-bcf9-d80a55beab17.png" width="400px"> </p>                                                  | <p align="center"> A box will appear, click on install button, and after that, you will be able to find arito in your apps menu <img src="https://user-images.githubusercontent.com/65062036/210035588-1a4ae218-33bb-4dec-9839-8294fd1e09c2.jpg" width="200px"> </p> |
+| **Note** | The browser used in the images is Brave v1.46.144 and OS is Ubuntu 22.04.1 LTS, but it should work on other devices and browsers too                                                                                                                                    | The browser used in the images is Chrome 107.0.5304.91 and OS is Android 9, but it should work on other devices and browsers too                                                                                                                                     |
 
 ## Future Goals
-To write...
 
+To write...
 
 <h1 align="center">
 Contributors
@@ -96,7 +86,7 @@ People Who make Open-Source Successful! 🤝
 
 <p align="center">
 Contributions will be highly appreciated. 
-Guidelines for contibuting can be found in <a href="https://github.com/prakhartiwari0/Arito/blob/main/CONTRIBUTING.md#contributing-guidelines">CONTRIBUTING.md</a>. 
+Guidelines for contributing can be found in <a href="https://github.com/prakhartiwari0/Arito/blob/main/CONTRIBUTING.md#contributing-guidelines">CONTRIBUTING.md</a>. 
 </p>
 
 <p align="center">
